@@ -54,3 +54,9 @@
     max-width: 18vw;
     translate: 6vw -2vh;
 }
+
+.heading{
+    font-family: "Archivo", serif;
+    font-weight: 500;
+    font-size: 25px;
+}
