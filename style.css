@@ -24,6 +24,21 @@
     width: 97vw;
 }
 
+.p2 {
+    translate: 1.8vw 0vh;
+}
+
+.p3 {
+    translate: 2vw 0vh;
+}
+
+.navsearch{
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
 .homebg{
     height: 75vh;
     width: 100%;
