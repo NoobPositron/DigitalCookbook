@@ -106,7 +106,8 @@
     flex-direction: row;
     align-content: center;
     margin-top: 3%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    height:65vh;
 }
 
 .widget a{
@@ -117,7 +118,7 @@
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 50vh;
+    height: 55vh;
     width: 33%;
     font-family: "Archivo", serif;
     justify-content: center;
@@ -167,4 +168,52 @@
     margin-bottom: 2.5%;
     margin-top: 2.5%;
     background-color: gray;
+}
+
+.bigwrap{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(238,236,223);
+}
+
+.wrapp1{
+    font-family: "Archivo", serif;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abouthead{
+    width: 50%;
+    height: fit-content;
+    font-size: 35px;
+    font-weight: 350;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+
+.aboutp{
+    width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    margin-bottom: 5%;
+}
+
+.aboutbtn{
+    text-decoration: none;
+    color:black;
+}
+
+.wrapp2{
+    width: 50%;
+    height: 100%;
+    background-image: url("85930D48-4100-4460-9969-BF13896DE0F1.png");
 }
