@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.largewrapper{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top:1%;
+    
+}
+
+.mediumwrapper{
+    width:100%;
+    height: 40%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.smallwrapper:hover .fakebtn{
+    background-color: rgb(162, 187, 165);
+}
+
+.smallwrapper:hover::before{
+    box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.smallwrapper{
+    width:50%;
+    height:100%;
+    display:flex;
+    z-index: 5;
+    isolation: auto;
+    position: relative;
+}
+
+.smallwrapper::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: none; /* Default state: no shadow */
+    z-index: 2; /* Renders above background but below children */
+    pointer-events: none; /* Ignore mouse interactions */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+
+}
+
+.atag{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    width: 100%;
+    font-family: "Archivo", serif;
+}
+
+.recipeheading{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.miniwrapper{
+    padding-top: 3%;
+    background-color: beige;
+}
+
+.recipeparagraph{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+.fakebtn{
+    width: 38%;
+    margin-left: 31%;
+    margin-right: 31%;
+    color: white;
+    text-align: center;
+    height: 12%;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(132, 164, 136);
+    transition: 0.6s ease;
+}
+
+.recipeimg{
+    object-fit: cover;
+    width: 50%;
+}
